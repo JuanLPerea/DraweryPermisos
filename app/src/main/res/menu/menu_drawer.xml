@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="INFO">
+        <menu>
+            <item
+                android:orderInCategory="0"
+                android:title="Créditos" />
+
+        </menu>
+    </item>
+
+    <item android:title="ACCIONES">
+        <menu>
+            <item
+                android:orderInCategory="15"
+                android:title="Main"
+                android:icon="@drawable/ic_home_black_24dp"/>
+            <item
+                android:orderInCategory="16"
+                android:title="Foto"
+                android:icon="@drawable/ic_photo_camera_black_24dp"/>
+            <item
+                android:orderInCategory="17"
+                android:title="Red"
+                android:icon="@drawable/ic_rss_feed_black_24dp"/>
+            <item
+                android:orderInCategory="18"
+                android:title="Cuentas"
+                android:icon="@drawable/ic_account_balance_black_24dp"/>
+
+        </menu>
+    </item>
+
+</menu>
